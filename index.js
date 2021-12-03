@@ -18,7 +18,7 @@
 
 const fs = require('fs');
 
-const input = fs.readFileSync('/dev/stdin');
+const input = fs.readFileSync(process.stdin.fd);
 
 let lbLen = 0;
 let lbDist = 0;
