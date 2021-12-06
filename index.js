@@ -18,7 +18,11 @@
 
 const fs = require('fs');
 
-const input = fs.readFileSync(process.stdin.fd);
+var myArgs = process.argv.slice(2);
+
+var infile = myArgs[0] || process.stdin.fd
+
+const input = fs.readFileSync(infile);
 
 let lbLen = 0;
 let lbDist = 0;
