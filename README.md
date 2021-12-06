@@ -2,6 +2,10 @@
 
 This code can decompress a file in LZ2TreeFile format.  Use it like so:
 
+    node index.js input.cd3 > output.txt
+
+It is also possible in most shells to redirect file input:
+
     node index.js < input.cd3 > output.txt
 
 It really needs to be rewritten as a stream transformer, and a corresponding
