@@ -2,8 +2,5 @@
   "name": "lz2treefile",
   "description": "This code can decompress a file in LZ2TreeFile format.  Use it like so:",
   "main": "index.js",
-  "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "pkg": "^5.5.1"
-  }
+  "license": "GPL-3.0-or-later"
 }
